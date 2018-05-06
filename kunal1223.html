@@ -3,15 +3,90 @@
 <head>
   
   <style>
-div,h1 {
+    
+    p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+}
+div {
     border: 1px solid black;
     padding: 0px 0px 0px 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     
 }
-    h2{
+    h2,h1{
      text-align : center ;
       
     }
+    
+    table, th {
+    border: 1px solid red;
+}
+table {
+   
+    width: 100%;
+}
+th {
+    height: 100%;
+    margin-left: 5px;
+}
+    tr{
+    height: 100%;
+    }
+</style>
+  
+  <style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+/* Style inputs */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+/* Create two columns that float next to eachother */
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
 </style>
    
   <title>Charging Station</title>
@@ -22,9 +97,9 @@ div,h1 {
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+<h1 style="background-color:DodgerBlue; color:white;text-align:center">VG CHARGING STATION</h1>  
 
 <div class="container">
-  <h1 style="background-color:DodgerBlue; color:white;text-align:center">VG CHARGING STATION</h1>  
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -59,6 +134,94 @@ div,h1 {
     </a>
   </div>
 </div>
-<h2> SITE UNDER MAINTENANCE </h2>
+<h2>Electric Charging Station Details</h2>
+
+<table>
+  <tr>
+    <th>Address : RT Nagar , Near Police Station</br> Google Link :<a href="https://www.google.com/maps/?q=13.0196,77.5968 " target="_blank" >Click to Open</a> </br> No. vehicle in Waitlist : 15  </th>
+    <th>Address : MATHIKERE BUS STOP</br> Google Link :<a href="https://www.google.com/maps/?q=13.0334,77.5640 " target="_blank" >Click to Open</a> </br> No. vehicle in Waitlist : 5 </th>
+    <th>Address : MARATHALLI BRIDGE</br> Google Link :<a href="https://www.google.com/maps/?q=12.9592,77.6974 " target="_blank" >Click to Open</a> </br> No. vehicle in Waitlist : 11 </th>
+  </tr>
+  <tr>
+    <th>Address : ORION MALL </br> Google Link :<a href="https://www.google.com/maps/?q=13.0108,77.5549 " target="_blank" >Click to Open</a> </br> No. vehicle in Waitlist : 9 </th>
+    <th>Address : MANTRI MALL</br> Google Link :<a href="https://www.google.com/maps/?q=12.9916,77.5712 " target="_blank" >Click to Open</a> </br> No. vehicle in Waitlist : 6 </th>
+    <th>Address : FORUM MALL</br> Google Link :<a href="https://www.google.com/maps/?q=12.9346,77.6113 " target="_blank" >Click to Open</a> </br> No. vehicle in Waitlist : 2 </th>
+  </tr>
+  <tr>
+    <th>Address : MAJESTIC BUS STOP</br> Google Link :<a href="https://www.google.com/maps/?q=12.9767,77.5713 " target="_blank" >Click to Open</a> </br> No. vehicle in Waitlist : 8 </th>
+    <th>Address : BELLANDUR BUS STOP</br> Google Link :<a href="https://www.google.com/maps/?q=12.9620,77.6762 " target="_blank" >Click to Open</a> </br> No. vehicle in Waitlist : 25 </th>
+    <th>Address : ITPL TECH PARK</br> Google Link :<a href="https://www.google.com/maps/?q=12.9862,77.7360 " target="_blank" >Click to Open</a> </br> No. vehicle in Waitlist : 19 </th>
+  </tr>
+ 
+</table>
+
+
+<div class="container-fluid">
+  <h1>VIDEOS</h1>
+  
+  <div class="row">
+    <div class="col-sm-4" style="background-color:lavender;"><iframe height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe></div>
+    <div class="col-sm-4" style="background-color:lavenderblush;"><iframe height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe></div>
+    <div class="col-sm-4" style="background-color:lavender;"><iframe height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe></div>
+  </div>
+  
+  <div>
+<h1>WHAT WE DO</h1>
+<p>
+Plug-in-Hybrid Electric vehicles (PHEVs) are getting promoted around the world for multiple reasons. DC fast charging stations can act as a catalyst to the success of such promotions. Proper deployment of renewable based DC fast charging stations with smart communication facilities with the users can encourage the wide use of PHEVs. This project focuses on a smart communication between such a stations and the EV users which can enhances the promotion of PHEVs.
+It is employed by monitoring the state of charge (SoC) of PHEV batteries, location of charging station and PHEVs and crowd level at the charging stations. The proposed scheme ensures a proper communication of SoC with the customer when it reaches a predefined critical level through Global System for Mobile (GSM) technology. Coulomb counting method is used to measure the SoC. The Global Positioning System (GPS) is used to provide the information on nearest charging stations through a website link. The number of vehicles waiting at each charging stations will also be informed to the customers. The effectiveness of the proposed system is tested by experimental tests based on the prototype developed.
+
+</br>Index Terms-Electric vehicles (EVs), DC fast charging stations, Smart communications, State of charge(SoC) monitoring
+
+</p>
+</div>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Fill the details for any enquiry and suggestion </p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <div id="map" style="width:100%;height:500px"></div>
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="INDIA">INDIA</option>
+          <option value="CANADA">CANADA</option>
+          <option value="USA">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+// Initialize google maps
+function myMap() {
+  var myCenter = new google.maps.LatLng(13.0305,77.5647);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 12};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+  
+</div>
 </body>
 </html>
